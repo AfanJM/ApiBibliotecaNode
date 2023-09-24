@@ -58,10 +58,6 @@ router.get('/usuario', userGet)
  *                       example: "Algo salio mal :C "
  */
  
-//GetVacio
-router.get('/', (req,res)=>{
-    res.send("{index usuario}")
-})
 
 //getId
 router.get('/usuario/:id',userId )

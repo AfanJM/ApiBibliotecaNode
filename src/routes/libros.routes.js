@@ -6,10 +6,7 @@ const router = Router();
 
 //endpoint
 
-//get vacio
-router.get('/', (req,res)=>{
-    res.send('{index libros}')
-})
+
 
 //libroGet
 router.get('/libro',librosGet )

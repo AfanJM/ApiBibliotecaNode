@@ -1,4 +1,4 @@
-import { pool } from "../db.js";
+import { pool } from "../config/db.js";
 import { validationResult } from "express-validator";
 
 

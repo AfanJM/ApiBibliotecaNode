@@ -4,8 +4,6 @@ import { prestamoGet,prestamoId,prestamoPost,prestamoDelete,prestamoUpdate } fro
 import { prestamoValidate } from '../validations/prestamo.validate.js'
 const router = Router()
 
-//get vacio
-router.get('/', (req,res) => res.send('{Index prestamo}'))
 
 //getPrestamo
 router.get('/prestamo', prestamoGet)

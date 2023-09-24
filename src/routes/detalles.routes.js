@@ -6,8 +6,7 @@ import { detallesGet,detallesId,detallePost,detalleUpdate,detalleDelete } from '
 import { detalleValidate } from '../validations/detalle.validate.js';
 const router = Router();
 
-//getVacio
-router.get('/', (req,res)=> res.send('{Index Detalles}'))
+
 
 //getAll
 router.get('/detalle',detallesGet)

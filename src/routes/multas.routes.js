@@ -7,8 +7,7 @@ import { multaValidate } from '../validations/multa.validate.js';
 
 const router = Router();
 
-//getVacio
-router.get('/', (req,res)=> res.send('{Index multas}'))
+
 
 //getAll
 router.get('/multa',multaGet)
