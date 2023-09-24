@@ -1,6 +1,6 @@
 # ApiBibliotecaNode
-En este proyecto se llevo a cabo una API para administrar una biblioteca con diferentes tablas: usarios,libros,detalles,multas y prestamos. Se han implementado los verbos HTTP  HTTP GET, POST, PATCH y DELETE para la creación, modificación y eliminación de datos.
 
+En este proyecto se llevo a cabo una API para administrar una biblioteca con diferentes tablas: usarios,libros,detalles,multas y prestamos. Se han implementado los verbos HTTP  HTTP GET, POST, PATCH y DELETE para la creación, modificación y eliminación de datos.
 
 ## Instalacion
 
@@ -8,7 +8,7 @@ En este proyecto se llevo a cabo una API para administrar una biblioteca con dif
 git clone https://github.com/AfanJM/ApiBibliotecaNode.git
 
 2. Instalar las dependencias:
-npm install
+npm i
 
 3. Inicar el servidor:
 npm run dev
@@ -29,4 +29,6 @@ Se pueden realizar las siguientes acciones con los verbos HTTP:
 - `PATCH`: Actualizar un recurso existente.
 - `DELETE`: Eliminar un recurso existente.
 
+documentacion: 
+- http://localhost:3080/biblioteca/api/v1/docs
 
