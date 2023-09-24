@@ -29,10 +29,11 @@ Se pueden realizar las siguientes acciones con los verbos HTTP:
 - `PATCH`: Actualizar un recurso existente.
 - `DELETE`: Eliminar un recurso existente.
 
-# Documentacion: 
--  http://localhost:3080/biblioteca/api/v1/docs
-
-# Prodiccion: 
+# Produccion: 
 -  https://apibiblioteca-du0n.onrender.com/Biblioteca/usuario
 - recuerda que tienes las opciones de: /Biblioteca/usuario,libro, detalle... etc
+
+# Documentacion: 
+-  https://apibiblioteca-du0n.onrender.com/Biblioteca/api/v1/docs/
+
 
