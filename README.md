@@ -30,9 +30,9 @@ Se pueden realizar las siguientes acciones con los verbos HTTP:
 - `DELETE`: Eliminar un recurso existente.
 
 # Documentacion: 
-- ` http://localhost:3080/biblioteca/api/v1/docs
+-  http://localhost:3080/biblioteca/api/v1/docs
 
 # Prodiccion: 
-- ` https://apibiblioteca-du0n.onrender.com/Biblioteca/usuario
+-  https://apibiblioteca-du0n.onrender.com/Biblioteca/usuario
 - recuerda que tienes las opciones de: /Biblioteca/usuario,libro, detalle... etc
 
