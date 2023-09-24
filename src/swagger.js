@@ -23,7 +23,7 @@ const swaggerDocs = (app,port) =>{
         res.send(swaggerSpec)
     });
 
-    console.log(`http//localhost:${port}/Biblioteca/api/v1/docs`)
+    console.log(`${process.env.PRODUCCION_URL}/Biblioteca/api/v1/docs`)
 }
 
 export default swaggerDocs;
