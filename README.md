@@ -16,7 +16,7 @@ npm run dev
 ## Uso:
 La API tiene los siguientes endpoints:
 
-- `/Biblioteca/usuarios`: Permite crear, obtener, actualizar y eliminar usuarios.
+- `/Biblioteca/usuario`: Permite crear, obtener, actualizar y eliminar usuarios.
 - `/Biblioteca/libro`: Permite crear, obtener, actualizar y eliminar libros.
 - `/Biblioteca/detalle`: Permite crear, obtener, actualizar y eliminar detalles.
 - `/Biblioteca/multa`: Permite crear, obtener, actualizar y eliminar multas.
@@ -30,5 +30,9 @@ Se pueden realizar las siguientes acciones con los verbos HTTP:
 - `DELETE`: Eliminar un recurso existente.
 
 # Documentacion: 
-- `http://localhost:3080/biblioteca/api/v1/docs
+-  http://localhost:3080/biblioteca/api/v1/docs
+
+# Prodiccion: 
+-  https://apibiblioteca-du0n.onrender.com/Biblioteca/usuario
+- recuerda que tienes las opciones de: /Biblioteca/usuario,libro, detalle... etc
 
