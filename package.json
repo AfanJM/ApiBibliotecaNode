@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "jest --node-options=--require=@babel/register",
-    "dev": "nodemon src/App.js"
+    "dev": "nodemon src/App.js",
+    "start": "npm start"
+    
   },
   "keywords": [],
   "author": "",
