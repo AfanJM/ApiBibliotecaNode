@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest --node-options=--require=@babel/register",
     "dev": "nodemon src/App.js",
-    "start": "npm start"
+    "start": " node src/App.js"
     
   },
   "keywords": [],
